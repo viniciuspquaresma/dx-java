@@ -60,7 +60,7 @@ public class PaymentTest {
                                 .setAddress(
                                         new Address()
                                                 .setStreetName("ARIAS")
-                                                .setStreetNumber(3751)
+                                                .setStreetNumber("3751")
                                                 .setZipCode("C1430CRI")
                                                 .setNeighborhood("CABA")
                                                 .setCity("Buenos Aires")
@@ -111,7 +111,7 @@ public class PaymentTest {
                                                         new Address()
                                                                 .setZipCode("0000")
                                                                 .setStreetName("streetName")
-                                                                .setStreetNumber(1234))
+                                                                .setStreetNumber("1234"))
                                                 .setRegistrationDate(new Date()))
                                 .setShipments(
                                         new Shipments()
@@ -119,7 +119,7 @@ public class PaymentTest {
                                                         new AddressReceiver()
                                                                 .setZipCode("0000")
                                                                 .setStreetName("streetName")
-                                                                .setStreetNumber(1234)
+                                                                .setStreetNumber("1234")
                                                                 .setFloor("floor")
                                                                 .setApartment("apartment"))));
 
@@ -163,7 +163,7 @@ public class PaymentTest {
         payer.setLastName("Lastname");
         payer.setAddress(new Address()
                 .setStreetName("Anywhere avennue")
-                .setStreetNumber(1500)
+                .setStreetNumber("1500")
                 .setCity("Gotham")
                 .setZipCode("12333"));
 
@@ -229,7 +229,7 @@ public class PaymentTest {
         payer.setLastName("Lastname");
         payer.setAddress(new Address()
                 .setStreetName("Anywhere avennue")
-                .setStreetNumber(1500)
+                .setStreetNumber("1500")
                 .setCity("Gotham")
                 .setZipCode("12333"));
 

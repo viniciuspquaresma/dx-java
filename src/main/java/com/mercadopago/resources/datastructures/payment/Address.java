@@ -13,7 +13,7 @@ public class Address {
 
     @Size(max=256) private String zipCode = null;
     @Size(max=256) private String streetName = null;
-    private Integer streetNumber = null;
+    private String streetNumber = null;
     private String neighborhood = null;
     private String city = null;
     private String federalUnit = null;
@@ -36,11 +36,11 @@ public class Address {
         return this;
     }
 
-    public Integer getStreetNumber() {
+    public String getStreetNumber() {
         return streetNumber;
     }
 
-    public Address setStreetNumber(Integer streetNumber) {
+    public Address setStreetNumber(String streetNumber) {
         this.streetNumber = streetNumber;
         return this;
     }

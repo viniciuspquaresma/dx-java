@@ -25,7 +25,7 @@ public class AddressReceiver extends Address {
     }
 
     @Override
-    public AddressReceiver setStreetNumber(Integer streetNumber) {
+    public AddressReceiver setStreetNumber(String streetNumber) {
         return (AddressReceiver)super.setStreetNumber(streetNumber);
     }
 
